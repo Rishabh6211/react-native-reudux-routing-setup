@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910478688809",
+    "firebase_url": "https://online-whs.firebaseio.com",
+    "project_id": "online-whs",
+    "storage_bucket": "online-whs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910478688809:android:96f36dbb2342cb53",
+        "android_client_info": {
+          "package_name": "com.owhs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910478688809-p9mfm87jumf55jgctlcmglnhj4t8vn9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDso6tVUudHaSIXSBhLdFwiXmtIzowdqRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910478688809-p9mfm87jumf55jgctlcmglnhj4t8vn9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

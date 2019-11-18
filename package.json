@@ -1,0 +1,52 @@
+{
+  "name": "owhs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.4.0",
+    "@react-native-community/datetimepicker": "^2.0.0",
+    "@react-native-community/netinfo": "^4.1.4",
+    "@react-native-community/push-notification-ios": "^1.0.2",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.8",
+    "react": "16.8.6",
+    "react-native": "0.60.4",
+    "react-native-check-box": "^2.1.7",
+    "react-native-custom-actionsheet": "0.0.4",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-file-viewer": "^2.0.0",
+    "react-native-image-crop-picker": "^0.25.2",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-material-ui": "^1.30.1",
+    "react-native-modal-datetime-picker": "^7.5.0",
+    "react-native-push-notification": "^3.1.9",
+    "react-native-responsive-fontsize": "^0.2.1",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-size-matters": "^0.2.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-persist": "^4.8.3",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.16",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
