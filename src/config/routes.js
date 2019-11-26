@@ -6,7 +6,7 @@ import {
     Dimensions
   } from 'react-native';
 import { Root } from "native-base";
-import {CounterContainer,LoginContainer,Dashboard,Incident,Hazard} from '../containers/'
+import {SignupContainer,LoginContainer,Dashboard,Incident,Hazard,ForgotContainer} from '../containers/'
 import {Sidebar} from '../components/'
 import {sidebar} from '../assets/'
 const { height, width } = Dimensions.get("window");
@@ -20,8 +20,16 @@ const RouterComponent = () => {
           title="login"
           hideNavBar
         />
-       
-      
+        <Scene key="signup"
+          component={SignupContainer}
+          title="signup"
+          hideNavBar
+        />
+      <Scene key="forgot"
+          component={ForgotContainer}
+          title="forgot"
+          hideNavBar
+        />
        <Drawer
            hideNavBar
            key="drawer"
